@@ -1,2 +1,0 @@
-class PittsburghDirectory < ApplicationRecord
-end

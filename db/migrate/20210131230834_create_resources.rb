@@ -1,7 +1,6 @@
-class CreatePittsburghDirectories < ActiveRecord::Migration[6.0]
+class CreateResources < ActiveRecord::Migration[6.0]
   def change
-    create_table :pittsburgh_directories do |t|
-      t.string :category
+    create_table :resources do |t|
       t.string :name
       t.string :description
       t.string :location
