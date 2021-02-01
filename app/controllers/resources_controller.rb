@@ -5,12 +5,12 @@ class ResourcesController < ApplicationController
   def index
     @resources = Resource.all
 
-    render json: @resources
+    render json: @resources.to_json(include: :categories)
   end
 
   # GET /resources/1
   def show
-    render json: @resource
+    render json: @resource.to_json(include: :categories)
   end
 
   # POST /resources

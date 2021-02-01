@@ -5,12 +5,12 @@ class AssignmentsController < ApplicationController
   def index
     @assignments = Assignment.all
 
-    render json: @assignments
+    render json: @assignments.to_json(include: [:resource, :category])
   end
 
   # GET /assignments/1
   def show
-    render json: @assignment
+    render json: @assignment.to_json(include: [:resource, :category])
   end
 
   # POST /assignments
