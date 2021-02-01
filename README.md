@@ -6,6 +6,9 @@
 
 - [Bridge Beyond](https://www.bridgebeyond.org/) - a nonprofit organization that is focused on increasing accessibility of various resources for people who experience homelessness and housing instability.
 
+### Deployed URL:
+https://buddy-system-api.herokuapp.com/ 
+
 ### Pittsburgh Directory Schema
 
 #### Resource
