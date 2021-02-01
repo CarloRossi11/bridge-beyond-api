@@ -1,17 +1,12 @@
-# README
-
-## Bridge Beyond API
+# Bridge Beyond API README
 ## Buddy System
-
 - Built with Ruby on Rails & PostgreSQL 10
 
 - Built by [Carlo Berardelli](https://carloberardelli.com/) January 2021
 
 - [Bridge Beyond](https://www.bridgebeyond.org/) - a nonprofit organization that is focused on increasing accessibility of various resources for people who experience homelessness and housing instability.
 
-# Bridge Beyond
-## Buddy System
-### Pittsburgh Directory Model
+### Pittsburgh Directory Schema
 
 #### Resource
 ——
@@ -29,7 +24,8 @@
 #### Category
 ——
 - name
-- name
-- name
-- name
-- name
+
+#### Assignment
+——
+- references :resource
+- references :category
