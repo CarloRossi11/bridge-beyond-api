@@ -80,4 +80,19 @@ Resource.create([
     contact_notes: ""}
 ])
 
+Assignment.create([
+    {resource_id: 1,
+        category_id: 9},
+    {resource_id: 2,
+        category_id: 12},
+    {resource_id: 2,
+        category_id: 17},
+    {resource_id: 2,
+        category_id: 8},
+    {resource_id: 3,
+        category_id: 5},
+    {resource_id: 3,
+        category_id: 14}
+])
+
 puts "Seeded DB"
